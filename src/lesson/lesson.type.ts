@@ -13,4 +13,7 @@ export class LessonType{
 
     @Field()
     endDate:string
+    
+    @Field(returns=>[String])
+    students:string[]
 }
